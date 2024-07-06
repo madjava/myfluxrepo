@@ -13,3 +13,13 @@ spec:
     name: flux-system
     namespace: flux-system
    interval: 1m
+ values:
+  indexHtml: |-
+   <!doctype html>
+    <html>
+     <head>
+      <title>Custom Page</title>
+     </head>
+     <body><h1>Welcome to my custom Nginx page</h2></body>
+    </html>
+   
